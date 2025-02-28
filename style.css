@@ -1,0 +1,71 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.arkaplan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(0,0%,8%);
+}
+
+.kart{
+    width: 315px;
+    height: 520px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.avatar{
+    width: 65px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.isim{
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.sehir{
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.yazi{
+    color: white;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.sosyalmedya{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sosyalmedyaikon{
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
